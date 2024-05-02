@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8b5ea0c1f48c1750bd81214e0001780e81f550d0bf70cd3707b695d7f4617139
-size 468
+namespace Fusion.Addons.KCC
+{
+	/// <summary>
+	/// Stage executed on the end of fully predicted or extrapolated move.
+	/// Use to apply any post processing.
+	/// </summary>
+	public interface IEndMove : IKCCStage<EndMove> {}
+
+	/// <summary>
+	/// Stage object used for <c>IEndMove</c> stage.
+	/// </summary>
+	public sealed class EndMove : IEndMove
+	{
+		// IKCCStage<EndMove> INTERFACE
+
+		void IKCCStage<EndMove>.Execute(EndMove stage, KCC kcc, KCCData data)
+		{
+		}
+	}
+}

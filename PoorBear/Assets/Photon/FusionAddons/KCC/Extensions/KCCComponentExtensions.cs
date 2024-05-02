@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:99eb5ff5bacd0b88b5aef7082bf53981a1e1892aba307f4cf13c8f45901dd12a
-size 462
+namespace Fusion.Addons.KCC
+{
+	using System.Runtime.CompilerServices;
+	using UnityEngine;
+
+	public static partial class KCCComponentExtensions
+	{
+		// PUBLIC METHODS
+
+		[MethodImpl(MethodImplOptions.AggressiveInlining)]
+		public static T GetComponentNoAlloc<T>(this Component component) where T : class
+		{
+#if UNITY_EDITOR
+			return GameObjectExtensions<T>.GetComponentNoAlloc(component.gameObject);
+#else
+			return component.GetComponent<T>();
+#endif
+		}
+	}
+}
