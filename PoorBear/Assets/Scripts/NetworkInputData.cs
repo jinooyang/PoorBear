@@ -1,15 +1,3 @@
-using System;
-using Fusion;
-using UnityEngine;
-
-public struct NetworkInputData : INetworkInput
-{
-    public const byte MOUSEBUTTON0 = 1;
-    public const byte MOUSEBUTTON1 = 2;
-
-    public NetworkButtons buttons;
-    public Vector3 direction;
-    public float clientMainCameraEulerAngle;
-    public bool isSprint;
-    public bool isJump;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39ec39390599c949e18e4e562c6ec95005b309701b5f18bb866c08c67533df08
+size 369
