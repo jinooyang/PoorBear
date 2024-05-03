@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:71ff3fcca7fd7ad4039ec6f39fce2319948c08c42ee32be0d0f453758b6bc8fe
-size 427
+using UnityEngine;
+using Fusion;
+
+public class PhysxBall : NetworkBehaviour
+{
+    [Networked] private TickTimer life { get; set; }
+    
+    public void Init(Vector3 forward)
+    {
+        life = TickTimer.CreateFromSeconds(Runner, 5.0f);
+        GetComponent<Rigidbody>().velocity = forward;
+    }
+
+    public override void FixedUpdateNetwork()
+    {
+        if(life.Expired(Runner))
+            Runner.Despawn(Object);
+    }
+}
