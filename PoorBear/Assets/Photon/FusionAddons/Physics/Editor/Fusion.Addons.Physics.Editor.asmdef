@@ -2,7 +2,8 @@
     "name": "Fusion.Addons.Physics.Editor",
     "rootNamespace": "Fusion.Addons.Physics.Editor",
     "references": [
-        "GUID:ee448cb1442054024b3c982e54100a6a"
+        "GUID:ee448cb1442054024b3c982e54100a6a",
+        "GUID:1baf1ffff1031e948b3b228ab3453251"
     ],
     "includePlatforms": [
         "Editor"
