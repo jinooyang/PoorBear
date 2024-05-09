@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:709b34f081a30075ee7b1102418ac77ddba89e542bab7d054486831486ea4ee1
-size 512
+{
+    "name": "Fusion.Addons.Physics.Editor",
+    "rootNamespace": "Fusion.Addons.Physics.Editor",
+    "references": [
+        "GUID:ee448cb1442054024b3c982e54100a6a",
+        "GUID:1baf1ffff1031e948b3b228ab3453251"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

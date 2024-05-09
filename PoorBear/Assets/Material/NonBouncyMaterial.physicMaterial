@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f2b170852e1551e4b452833dea885541477334358f797789f77392e3f104db7f
-size 334
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!134 &13400000
+PhysicMaterial:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NonBouncyMaterial
+  dynamicFriction: 0.5
+  staticFriction: 0.5
+  bounciness: 0
+  frictionCombine: 0
+  bounceCombine: 0
