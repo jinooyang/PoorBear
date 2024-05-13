@@ -1,24 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using UnityEngine;
-
-public class WarningPopupUI : MonoBehaviour
-{
-
-    public TextMeshProUGUI warningMsg;
-    public void CloseThisPopup()
-    { 
-        gameObject.SetActive(false);
-    }
-
-    public void OpenThisPopup()
-    {
-        gameObject.SetActive(true);
-    }
-
-    public void SetWarningMsg(string text)
-    {
-        warningMsg.text = text;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:646847e0f239ca0a064c4e7d2d6be98913ac35bc993b4446075c01729e275538
+size 434
