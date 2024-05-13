@@ -8,7 +8,7 @@ public class ManagerContainer : MonoBehaviour
 
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
+        // DontDestroyOnLoad(gameObject);
     }
 
 }
