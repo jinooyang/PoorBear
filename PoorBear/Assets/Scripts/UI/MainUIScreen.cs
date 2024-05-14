@@ -7,6 +7,7 @@ public class MainUIScreen : MonoBehaviour
 {
     void Awake()
     {
+        AudioManager.instance.PlayBgm(true);
         UIScreen.Focus(GetComponent<UIScreen>());
     }
 }
