@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d8cbe1ba195fdb4ef4c915fa7e77cf76c20e83f71271bb4a0271672a692cc0a
-size 483
+using System;
+using Fusion;
+using UnityEngine;
+
+public struct NetworkInputData : INetworkInput
+{
+    public const byte MOUSEBUTTON0 = 1;
+    public const byte MOUSEBUTTON1 = 2;
+    public const byte RESPAWNBUTTON = 3;
+    public const byte SLEEPBUTTON = 4;
+    
+    
+    public NetworkButtons buttons;
+    public Vector3 direction;
+    public float clientMainCameraEulerAngle;
+    public float jumpTimeout;
+    public bool isSprint;
+    public bool isJump;
+    public Vector2 look;
+}
