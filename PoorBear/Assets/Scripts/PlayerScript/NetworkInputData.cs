@@ -16,4 +16,5 @@ public struct NetworkInputData : INetworkInput
     public float jumpTimeout;
     public bool isSprint;
     public bool isJump;
+    public Vector2 look;
 }

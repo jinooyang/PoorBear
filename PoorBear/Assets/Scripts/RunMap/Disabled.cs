@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:80797b9083c76dcd3939f8b423228c45fca2dc91fc37b3d4355d576121b4eb58
-size 432
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Disabled : MonoBehaviour
+{
+    private Animator animator;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.98f)
+        {
+            Debug.Log("끝");
+            this.gameObject.SetActive(false);
+        }
+    }
+}
