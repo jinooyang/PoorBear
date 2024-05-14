@@ -11,5 +11,7 @@ public class PlayerManager
     public string UserNickname { get; set; }
     public string SessionNumber { get; set; }
     public bool IsHost { get; set; }
-    
+
+    public string Roomname { get; set; }
+
 }
