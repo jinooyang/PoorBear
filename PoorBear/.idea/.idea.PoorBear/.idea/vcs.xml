@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:053fc3997d1add58267857f18824b31e8bf3e2eec5421193b29e9824a30b8d3b
-size 235
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
+</project>
