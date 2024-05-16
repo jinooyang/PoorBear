@@ -8,6 +8,7 @@ public class MainUIScreen : MonoBehaviour
     void Awake()
     {
         AudioManager.instance.PlayBgm(true);
-        UIScreen.Focus(GetComponent<UIScreen>());
+        if (PlayerManager.Instance.UserNickname == null) UIScreen.Focus(GetComponent<UIScreen>());
+        else gameObject.SetActive(false);
     }
 }
