@@ -14,7 +14,7 @@ public class StopWatch : MonoBehaviour
    {
       GameManager.TimeCheck += ShowTime;
    }
-
+   
    private void ShowTime(float time)
    {
       timeText.text = $"{(int)time / 60} : {(int)time%60}";
