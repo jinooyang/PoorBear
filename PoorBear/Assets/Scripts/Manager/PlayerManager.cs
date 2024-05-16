@@ -13,5 +13,7 @@ public class PlayerManager
     public bool IsHost { get; set; }
 
     public string Roomname { get; set; }
+    
+    public bool Reload { get; set; }
 
 }
