@@ -1,9 +1,3 @@
-fileFormatVersion: 2
-guid: 88dda3bf32601b1428d012b38738bf6f
-labels:
-- FusionPrefab
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1466ab4367ece94662f60dd71471612d863965ddc9f7fd6a95a2fab308ab826
+size 177
