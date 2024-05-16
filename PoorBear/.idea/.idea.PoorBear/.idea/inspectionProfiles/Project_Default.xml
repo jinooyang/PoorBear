@@ -1,6 +1,3 @@
-<component name="InspectionProjectProfileManager">
-  <profile version="1.0">
-    <option name="myName" value="Project Default" />
-    <inspection_tool class="InconsistentLineSeparators" enabled="false" level="WARNING" enabled_by_default="false" />
-  </profile>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6f7367caea29c12a7905987f0f19ab80426fec5dd64f698695fc12cd1d10e62
+size 273
