@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7455df9f5f5ef9eafd5c43c2641f52ae02523ad236aa5bbf3579cabcfdba9f06
-size 431
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Text;
+using TMPro;
+using UnityEngine;
+
+public class StopWatch : MonoBehaviour
+{
+   [SerializeField] public TextMeshProUGUI timeText;
+
+   private void Awake()
+   {
+      GameManager.TimeCheck += ShowTime;
+   }
+
+   private void ShowTime(float time)
+   {
+      timeText.text = $"{(int)time / 60} : {(int)time}";
+   }
+}
