@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9da42f77ba433be74856fe798550ff59aa6183bb53cc7de65dee94d274b03620
-size 321
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ModePopup : MonoBehaviour
+{
+    [SerializeField] public GameObject popUpUI;
+
+    public void OpenPopup()
+    {
+        popUpUI.SetActive(true);
+    }
+
+    public void ClosePopup()
+    {
+        popUpUI.SetActive(false);
+    }
+}
