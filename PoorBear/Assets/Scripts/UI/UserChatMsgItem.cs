@@ -1,20 +1,3 @@
-using System;
-using System.Text;
-using Fusion;
-using TMPro;
-using UnityEngine;
-
-public class UserChatMsgItem : MonoBehaviour
-{
-    public TextMeshProUGUI userNickName;
-    public TextMeshProUGUI message;
-    
-    public void Setup(string msg)
-    {
-
-        // 닉네임:채팅 형식
-        var splitIndex = msg.IndexOf(":", 0, StringComparison.Ordinal);
-        userNickName.text = msg[..splitIndex];
-        message.text = msg[(splitIndex+1)..];
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:076b040ac87ffa1bdacb70f719789c563936e93d5f103d454bdc6a189e8854a8
+size 556
