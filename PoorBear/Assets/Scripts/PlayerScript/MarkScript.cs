@@ -14,9 +14,9 @@ public class MarkScript : MonoBehaviour
 
     void Update()
     {
-        float dist = Vector3.Distance(Cam.transform.position, transform.position);
-        Vector3 newScale = startScale * dist / distance;
-        transform.localScale = newScale;
+        // float dist = Vector3.Distance(Cam.transform.position, transform.position);
+        // Vector3 newScale = startScale * dist / distance;
+        // transform.localScale = newScale;
         
         transform.rotation = Cam.transform.rotation;
     }
