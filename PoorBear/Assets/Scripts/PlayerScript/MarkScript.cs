@@ -1,23 +1,3 @@
-using UnityEngine;
-
-public class MarkScript : MonoBehaviour
-{
-    public GameObject Cam;
-    
-    Vector3 startScale;
-    public float distance = 3;
-
-    void Start()
-    {
-        startScale = transform.localScale;
-    }
-
-    void Update()
-    {
-        float dist = Vector3.Distance(Cam.transform.position, transform.position);
-        Vector3 newScale = startScale * dist / distance;
-        transform.localScale = newScale;
-        
-        transform.rotation = Cam.transform.rotation;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:236d898fe1cfa62559ccc50e3d6e0c67a6b15fe8404a0e5aaf6a9cf77d3280f0
+size 507
