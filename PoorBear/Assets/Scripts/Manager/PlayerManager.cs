@@ -10,8 +10,11 @@ public class PlayerManager
     public static PlayerManager Instance => Manager.Value;
     public string UserNickname { get; set; }
     public string SessionNumber { get; set; }
+    public int GameMode { get; set; }
     public bool IsHost { get; set; }
 
     public string Roomname { get; set; }
+    
+    public bool Reload { get; set; }
 
 }
