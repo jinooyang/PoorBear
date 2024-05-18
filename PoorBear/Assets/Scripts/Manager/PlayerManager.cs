@@ -1,20 +1,3 @@
-using System;
-
-
-public class PlayerManager
-{
-    private PlayerManager() { }
-
-    private static readonly Lazy<PlayerManager> Manager
-        = new Lazy<PlayerManager>(()=>new PlayerManager());
-    public static PlayerManager Instance => Manager.Value;
-    public string UserNickname { get; set; }
-    public string SessionNumber { get; set; }
-    public int GameMode { get; set; }
-    public bool IsHost { get; set; }
-
-    public string Roomname { get; set; }
-    
-    public bool Reload { get; set; }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c2af69ad20d889388723b0d2503771e7470d874fb67c6f85ed4e895d87e7ac3
+size 574
