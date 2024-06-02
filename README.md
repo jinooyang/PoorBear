@@ -95,8 +95,6 @@ https://youtu.be/Q_H9DK2S5cE
 - 다양한 장애물과 상호작용
 
 ![전투1](/PoorBear/PoorBearImages/crownScene1.png)
-### 시연 동영상
-https://youtu.be/Q_H9DK2S5cE
 
 
 ## 팀원 소개
