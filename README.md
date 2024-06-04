@@ -61,9 +61,10 @@ https://youtu.be/Q_H9DK2S5cE
 - 게임 설명 확인 기능
 - 닉네임 길이 제한
 
-![메인1](/PoorBear/PoorBearImages/mainScene1.png)
-![메인2](/PoorBear/PoorBearImages/mainScene2.png)
-![메인3](/PoorBear/PoorBearImages/mainScene3.png)
+![메인1](https://github.com/ssafyPoorBear/PoorBear/assets/90955152/1ad87844-48a7-4c99-b4ee-908508f0967a)
+![image](https://github.com/ssafyPoorBear/PoorBear/assets/90955152/3eebb695-606b-431f-b616-98119c57f702)
+![image](https://github.com/ssafyPoorBear/PoorBear/assets/90955152/20e28dd8-c0b9-4c5d-a163-b82765803a58)
+
 ### 로비
 - 새로운 방 생성 (비밀 번호 설정)
 - 게임 모드 선택
@@ -71,30 +72,30 @@ https://youtu.be/Q_H9DK2S5cE
 - 방 입장
 - 빠른 입장
 
-![로비1](/PoorBear/PoorBearImages/lobbyScene1.png)
-![로비2](/PoorBear/PoorBearImages/lobbyScene2.png)
-![로비3](/PoorBear/PoorBearImages/lobbyScene3.png)
+![image](https://github.com/ssafyPoorBear/PoorBear/assets/90955152/aa09b4aa-d64c-46b1-a140-93e929b72a99)
+![image](https://github.com/ssafyPoorBear/PoorBear/assets/90955152/e19b0f1c-100f-4378-b9c4-9b8570494e77)
+![image](https://github.com/ssafyPoorBear/PoorBear/assets/90955152/4402c986-a207-4d2c-a1de-e5d9e581759f)
+
 ### 룸
 - 준비 완료/취소
 - 게임 시작
 - 채팅 기능
 
-![룸1](/PoorBear/PoorBearImages/roomScene1.png)
+![image](https://github.com/ssafyPoorBear/PoorBear/assets/90955152/3ce4f338-855b-44f1-b2e0-371043eea256)
 ### 달리기 모드
 - 다양한 장애물과 상호작용
 - 캐릭터 리스폰
 
-![달리기1](/PoorBear/PoorBearImages/runScene1.png)
+![image](https://github.com/ssafyPoorBear/PoorBear/assets/90955152/35843087-b390-413d-9040-758c1c2954fb)
 ### 오래 살아남기
 - 사라지는 발판
 
-![생존1](/PoorBear/PoorBearImages/surviveScene1.png)
+![image](https://github.com/ssafyPoorBear/PoorBear/assets/90955152/f4289b39-2bef-4acb-ae2e-68ddef6e04f4)
 ### 별 뺏기
 - 캐릭터 공격 및 피격 모션
 - 별 뺏기
 - 다양한 장애물과 상호작용
-
-![전투1](/PoorBear/PoorBearImages/crownScene1.png)
+![image](https://github.com/ssafyPoorBear/PoorBear/assets/90955152/ecd7e4fd-2b1d-4509-8f25-871ba2d58415)
 
 
 ## 팀원 소개
